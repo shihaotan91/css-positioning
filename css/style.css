@@ -9,3 +9,113 @@ body {
   font-size: 16px;
   margin: 0;
 }
+
+.container {
+  width: 100%;
+  height: 250px;
+  background-color: #1c5380;
+}
+
+#instagram {
+  margin-left: 600px;
+  margin-top: 115px;
+}
+
+button {
+     color: white;
+     background-color: #1c5380;
+     border: 2.5px solid #06365f;
+     border-radius: 5px;
+     width: 100px;
+     height: 50px;
+     font-size: 8px;
+     position: absolute;
+     margin-left: 30px;
+     margin-top: 125px;
+
+}
+
+#home {
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: 9px;
+}
+
+#phones {
+       position: absolute;
+       margin-left: 200px;
+       margin-top: 115px;
+}
+
+.container2 {
+       background-color: white;
+       height: 450px;
+       width: 100%;
+}
+
+#frame {
+        position: relative;
+        left: 575px;
+        top: -50px;
+}
+
+h2 {
+      color: #06365f;
+      position: absolute;
+      left: 608px;
+      bottom: 320px;
+}
+
+p {
+   position: absolute;
+   left: 608px;
+   bottom: 82px;
+   line-height: 25px;
+ }
+
+#iphone {
+     position: absolute;
+     left: 600px;
+     bottom: 25px;
+   }
+
+#android {
+  position: absolute;
+  left: 800px;
+  bottom: 25px;
+   }
+
+ul {
+  display: inline;
+  list-style: none;
+  margin-left: 200px;
+}
+
+li {
+  display: inline;
+  padding: 9px;
+}
+
+a {
+  font-family: "Helvetica Neue", Helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+}
+
+#copyright {
+  color: grey;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica;
+  position: relative;
+  bottom: 37px;
+  left: 900px;
+}
