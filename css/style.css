@@ -13,7 +13,10 @@ body {
 .container {
   width: 100%;
   height: 250px;
-  background-color: #1c5380;
+  background: -webkit-linear-gradient(to top, #06365f, #4082c9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to top, #06365f, #4082c9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to top, #06365f, #4082c9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, #06365F, #4082c9); /* Standard syntax */
 }
 
 #instagram {
@@ -23,7 +26,10 @@ body {
 
 button {
      color: white;
-     background-color: #1c5380;
+     background: -webkit-linear-gradient(to top, #06365f, #72aae7); /* For Safari 5.1 to 6.0 */
+     background: -o-linear-gradient(to top, #06365f, #72aae7); /* For Opera 11.1 to 12.0 */
+     background: -moz-linear-gradient(to top, #06365f, #72aae7); /* For Firefox 3.6 to 15 */
+     background: linear-gradient(to top, #06365F, #72aae7); /* Standard syntax */
      border: 2.5px solid #06365f;
      border-radius: 5px;
      width: 100px;
